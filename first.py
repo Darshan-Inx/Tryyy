@@ -166,6 +166,29 @@ def main():
             print("\n--- Completed Tasks ---")
             for t in manager.completed_tasks():
                 print(t)
+        elif choice == "9":
+            print("\n--- Summary ---")
+            print(manager.summary())
+
+        elif choice == "9":
+            print("\n--- Summary ---")
+            print(manager.summary())
+
+        elif choice == "9":
+            print("\n--- Summary ---")
+            print(manager.summary())
+
+        elif choice == "9":
+            print("\n--- Summary ---")
+            print(manager.summary())
+
+
+        elif choice == "9":
+            print("\n--- Summary ---")
+            print(manager.summary())
+
+
+
         else:
             break
 
