@@ -170,9 +170,8 @@ def main():
             keyword = input("Keyword to search: ")
             for t in manager.search_tasks(keyword):
                 print(t)
-        elif choice == "9":
-            print("\n--- Summary ---")
-            print(manager.summary())
+        else:
+            return
 
 
 if __name__ == "__main__":
