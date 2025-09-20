@@ -170,29 +170,9 @@ def main():
             keyword = input("Keyword to search: ")
             for t in manager.search_tasks(keyword):
                 print(t)
-
-        elif choice == "3":
-            index = int(input("Task index to complete: "))
-            manager.mark_task_done(index)
-        elif choice == "4":
-            index = int(input("Task index to delete: "))
-            manager.delete_task(index)
-        elif choice == "5":
-            print("\n--- Upcoming Tasks ---")
-            for t in manager.upcoming_tasks():
-                print(t)
-        elif choice == "6":
-            print("\n--- Overdue Tasks ---")
-            for t in manager.overdue_tasks():
-                print(t)
-        elif choice == "7":
-            print("\n--- Completed Tasks ---")
-            for t in manager.completed_tasks():
-                print(t)
-        elif choice == "8":
-            keyword = input("Keyword to search: ")
-            for t in manager.search_tasks(keyword):
-                print(t)
+        elif choice == "9":
+            print("\n--- Summary ---")
+            print(manager.summary())
 
 
 if __name__ == "__main__":
